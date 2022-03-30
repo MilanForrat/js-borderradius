@@ -1,0 +1,32 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ajouter, #appointir{
+    padding: 15px;
+    background-color: rgb(12, 100, 12);
+    color: white;
+    font-weight: bold;
+    margin: 35px;
+    cursor: pointer;
+}
+#ajouter:hover, #appointir:hover{
+    background-color: rgb(16, 122, 16);
+}
+#carre{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
